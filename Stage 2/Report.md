@@ -7,7 +7,7 @@
 **TEAM:**\
 Ghizal Niko (@Ghizal), David Ojo (@Dajom), Ademilola Adekoya (@Demi\_Nevaeh), Eman Binte Hafeez (@emanuts), Lillian Mwinja (@LillianMwinja), Irina Andriushchenko (@rirkella), Antara Ghanta (@Tara) and Narendran Mayilvaganan (@Naren037)
 
-**CODE:**  https://github.com/Naren037/hackbio-cancer-internship/blob/91f8a3e62d47e7301b609b618edb5a9efb4fe894/TASK%202/Code.R    
+**CODE:**  https://github.com/GN29S/Hackbio-cancer-internship/blob/main/Stage%202/Code.R   
 
 1. **INTRODUCTION**
 
