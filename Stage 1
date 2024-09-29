@@ -1,4 +1,4 @@
-# **MULTI-OMIC MACHINE LEARNING PREDICTOR OF BREAST CANCER THERAPY RESPONSE**
+**MULTI-OMIC MACHINE LEARNING PREDICTOR OF BREAST CANCER THERAPY RESPONSE**
 
 **Stephen-John Sammut**, Mireia Crispin-Ortuzar, Suet-Feung Chin, Elena Provenzano, Helen A. Bardwell, Wenxin Ma, Wei Cope, Ali Dariush, Sarah-Jane Dawson, Jean E. Abraham, Janet Dunn, Louise Hiller, Jeremy Thomas, David A. Cameron, John M. S. Bartlett, Larry Hayward, Paul D. Pharoah, Florian Markowetz, Oscar M. Rueda, Helena M. Earl & Carlos Caldas.
 
@@ -9,14 +9,14 @@
 **Authors:** Eman Binte Hafeez (@emanuts**)**, Fatma Fathi (@FatmaFathi), Ghizal Niko (@Ghizal) and Narendran Mayilvaganan (@Naren037).
 
 
-# **1. INTRODUCTION**
+**1. INTRODUCTION**
 
 Neoadjuvant treatment, involving chemotherapy with or without targeted therapy before surgery, is used to        improve breast cancer outcomes but often has limited effectiveness (Symmans et al., 2007, 2017). Clinical features are not conclusive indicators, and other factors do influence treatment response (Marusyk et al., 2020). The study used multi-omics data from pre-therapy biopsies to build a machine-learning prediction model integrating clinical, molecular, and pathology data.
 
 
-# **2. MULTI-OMIC FEATURES AND MACHINE LEARNING PREDICTION**
+**2. MULTI-OMIC FEATURES AND MACHINE LEARNING PREDICTION**
 
-## **2. 1 Multi-platform profiling of tumour biopsies**
+**2. 1 Multi-platform profiling of tumour biopsies**
 
 The clinical data was obtained from 180 women with early and locally advanced breast cancer undergoing neoadjuvant treatment (refer Figure 1). Pre-treatment tumour biopsies were analysed using whole-genome, whole-exome, and RNA sequencing. Chemotherapy was administered to all patients, whereas 65 patients with HER2+ tumours received further anti-HER2 gene therapy. 
 
@@ -34,7 +34,7 @@ The clinical data was obtained from 180 women with early and locally advanced br
 | Extensive residual disease (RCB-III) |     18%     |
 
 
-## **2. 3 Genomic landscapes and other factors associated with response**
+**2. 3 Genomic landscapes and other factors associated with response**
 
 Whole-exome sequencing identified 16,134 somatic mutations, with certain major mutations that are mentioned in Table 2. 
 
@@ -58,34 +58,34 @@ Resistant tumours:
 - PIK3CA mutations.
 
 
-## **2.4 Tumour proliferation, TiME, and immune system attenuation**
+**2.4 Tumour proliferation, TiME, and immune system attenuation**
 
 Differential RNA expression study revealed 2,071 genes underexpressed and 2,439 overexpressed genes in pCR tumours. Gene-set enrichment analysis (Liberzon et al., 2015), showed a strong correlation between proliferation and immune activation with pCR. GGI analysis (Sotiriou et al., 2006) showed tumours that attained pCR had higher proliferation. Tumour immunological Micro Environment (TiME) was analysed using RNA expression deconvolution, showing enriched innate and adaptive immunity in pCR. Whereas, resistant tumours have increased mast cells. Active TiME didn’t guarantee pCR due to an increase in inhibitory natural killer CD56 cells and regulatory T-cells, and increased exclusion in resistant tumours.
 
 
-## **2.5 Integration of multi-omics features with Machine Learning** 
+**2.5 Integration of multi-omics features with Machine Learning** 
 
 The ML models were developed by using only clinical pathology data and subsequently expanding the number of features. The pipeline was created using three parallel algorithms to analyse the parameters in each model and was tested with a fivefold cross-validation scheme.
 
 ****![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXehbEadHaE3bJKh7Is--qn4-ma3ZUzJHTqDLISAp_7NxfhPQ8bIlEde4o8IrFQ9Tlb_pcrtJ3Oi4g-swNXM8hhxBDT5nHbwS2iRavBiImpL-7kvVzZK80rLr1h560caOeSWKy6m8-T967LV83qH3x8T62I?key=WjCHy4SolYKCRAPkqrfFyw)**                                      Figure 2**. Pipeline for prediction using ML.********
 
 
-# **3. METHODOLOGY**
+**3. METHODOLOGY**
 
 Blood samples from patients with primary invasive cancer were collected before starting therapy, and RCB, ER, and HER2 were assessed. DNA quantification and sequencing, and RNA extraction and transcriptomics were done (Dobin et al., 2013). A bioinformatics pipeline was made for preprocessing, clonal reconstruction, immune-related analysis, tumour classification, RNA-seq alignment, and gene counts obtained using HTseq.
 
 
-# **4. LIMITATIONS**
+**4. LIMITATIONS**
 
 Ambiguity due to heterogeneity due to the small sample size of 168 tumours. Whole-exome sequencing overlooks epigenetic alterations. Findings limited only to certain tumour subtypes. Mutations and treatment responses are correlational, not causal. There are immune escape mechanisms other than HLA-I. Limited variability in treatment and lack of long-term follow-up data.
 
 
-# **5. DISCUSSION AND CONCLUSION**
+**5. DISCUSSION AND CONCLUSION**
 
 The study demonstrates the use of ML to predict breast cancer therapy responses by combining clinical, molecular, and digital pathology to accurately predict pathological responses. Therefore, the use of data analysis and ML for personalised medicine can circumvent the inability of clinical features to be used as prediction tools in cancer.
 
 
-# **6. REFERENCES**
+**6. REFERENCES**
 
 Dobin, A., Davis, C. A., Schlesinger, F., Drenkow, J., Zaleski, C., Jha, S., Batut, P., Chaisson, M., & Gingeras, T. R. (2013). STAR: ultrafast universal RNA-seq aligner. _Bioinformatics_, _29_(1), 15–21. https\://doi.org/10.1093/bioinformatics/bts635
 
