@@ -4,7 +4,7 @@
 
 **TEAM:** Narendran Mayilvaganan (@Naren037), Ademilola Adekoya (@Demi\_Nevaeh), Ghizal Niko (@Ghizal), Eman Binte Hafeez (@emanuts), David Ojo (@Dajom), Lillian Mwinja (@LillianMwinja), Irina Andriushchenko (@rirkella), Antara Ghanta (@Tara)
 
-**CODE:** https://github.com/Naren037/HackBio_Cancer_Internship/blob/08fe7814317d2e2544ecb33747f3cd526fcab57b/TASK%204/Codes/%20LGG_CODE.R 
+**CODE:** https://github.com/GN29S/Hackbio-cancer-internship/blob/main/Stage%204/Code/LGG_Code.R
 
 1. # **INTRODUCTION**<a id="h.yv49cqze5iy3"></a>
 
