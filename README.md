@@ -8,7 +8,7 @@ and developed a deeper understanding of the intersection of biology and technolo
 
 🌟 Skills & Interests
 
-• Bioinformatics Tools: [List tools you’ve used: R, Bioconductor]
+• Bioinformatics Tools: R, Bioconductor
 
 • Data Analysis: Genomic data analysis, pipeline development, and visualization.
 
